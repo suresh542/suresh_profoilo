@@ -1,0 +1,87 @@
+@import '../variable';
+
+.resume_main_wrapper{
+
+    // border: 2px solid red;
+}
+.education_skill_info_wrapper{
+
+    color: $white;
+    
+}
+
+.main_timeline_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+   
+
+    width: 55%;
+    // background-color: rgb(110, 125, 110);
+    background-color: transparent !important;
+
+    .timeline{
+        position: relative;
+        // flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        // align-items: flex-end;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+
+        .left{
+            display: block;
+            // display: flex;
+            // flex-direction: column;
+
+            // align-items: flex-end;
+            // background-color: red;
+            height: 100%;
+            width: 100%;
+            // padding: 20px;
+            // border: 2px solid red;
+            p{
+                text-align: end;
+            }
+        }
+
+        .divider{
+            position:relative;
+            // margin: 10px;
+            // height: 120%;
+          
+            height: 100%;
+            width: 1px;
+            // margin-bottom: -20px;
+            background-color: rgb(125, 121, 121);
+
+            &::after{
+                content: "";
+                display: block;
+                position: absolute;
+                border-radius:50%;
+                height: 13px;
+                width: 13px;
+                right: 0px;
+                left: -6px;
+                top: 20px;
+                background-color: rgb(1, 5, 26);
+                border: 3.5px solid rgba(36, 185, 243, 0.839);
+                box-shadow: rgba(20, 125, 206, 0.478) 0px 0px 0px 5px;
+            }
+        }
+        .right{
+            // border: 2px solid blue;
+            padding: 20px;
+            height: 100%;
+        }
+
+       
+    }
+}

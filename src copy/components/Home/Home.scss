@@ -1,0 +1,22 @@
+@import '../variable';
+
+.long_info_wrapper{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $darkgray;
+    .name_show{
+        font-size: 4.5rem;
+        color: $white;
+    }
+    .designation_show{
+        color: $lightgray;
+        font-size: 2em;
+        font-weight: 300;
+    }
+}
