@@ -26,7 +26,7 @@ const Hero = (props) => {
                             <div className="myInfo">
                                 <img src={mainProflie} alt="" className="img-fluid"  id='profile'/>
                                 <h1 className="name">Suresh Kumar R</h1>
-                                <p className="designation">System Engineer</p>
+                                <p className="designation">UI/UX Developer</p>
                                 <div className="social_media_group">
                                     <a href="https://github.com/suresh542" target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i></a>
                                     <a href="https://www.linkedin.com/in/suresh-kumar-9859831a7/" target='_blank' rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>

@@ -11,6 +11,7 @@
     #profile{
         width:60%;
         height: auto;
+        box-shadow: 10px 5px 35px  black;
     }
     .main_wrapper {
         display: flex;
@@ -20,6 +21,7 @@
         height: 800px;
         width: 100%;
         background-color: $redWhite;
+        // box-shadow: 10px 5px 35px  #fff;
         // background: linear-gradient(0deg, rgba(0, 36, 35, 1) 0%, rgba(1, 28, 45, 1) 0%, rgba(9, 120, 121, 1) 0%, rgba(8, 112, 114, 1) 0%, rgba(3, 185, 209, 1) 42%, rgba(1, 206, 238, 1) 63%, rgba(0, 219, 255, 1) 76%, rgba(8, 112, 114, 1) 100%);
         padding: 0;
         margin: 0;
@@ -56,6 +58,7 @@
                 }
 
                 .designation {
+                    font-weight: 500;
                     color: $black;
                 }
 
