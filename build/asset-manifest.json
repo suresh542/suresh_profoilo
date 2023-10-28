@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4649463.css",
+    "main.js": "/static/js/main.9e351292.js",
+    "static/media/main_Profile.png": "/static/media/main_Profile.2ed6981eb7938cc73408.png",
+    "static/media/bgimage2.jpg": "/static/media/bgimage2.fe9e5e29b61225a9e21a.jpg",
+    "static/media/Suresh's_Resume.pdf": "/static/media/Suresh's_Resume.4813fb9d8321dce61594.pdf",
+    "index.html": "/index.html",
+    "main.d4649463.css.map": "/static/css/main.d4649463.css.map",
+    "main.9e351292.js.map": "/static/js/main.9e351292.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4649463.css",
+    "static/js/main.9e351292.js"
+  ]
+}
