@@ -36,11 +36,11 @@ const About = () => {
                 </div>
                 <div className=" about_basic_description text-start">
                     {/* <p><span className='blueFont'>Age </span > 32</p> */}
-                    <p><span className='blueFont'>Age</span> 23</p>
-                    <p><span className='blueFont'>Residence</span> India</p>
-                    <p><span className='blueFont'>Address</span> Krishnagiri</p>
-                    <p><span className='blueFont'>e-mail</span> rsureshrajamanickam@example.com</p>
-                    <p><span className='blueFont'>Phone</span> +91 7598890324</p>
+                    <p><span className='blueFont'>Age :</span> 23</p>
+                    <p><span className='blueFont'>Residence :</span> India</p>
+                    <p><span className='blueFont'>Address :</span> Krishnagiri</p>
+                    <p><span className='blueFont'>e-mail :</span> rsureshrajamanickam@example.com</p>
+                    <p><span className='blueFont'>Phone :</span> +91 7598890324</p>
                 </div>
 
                 <div className="row what_i_do">

@@ -84,18 +84,15 @@
 
                 img {
                     border-radius: 50%;
-
                     width: 150px;
                 }
 
                 .download_resume {
                     margin-top: 30px;
-
                 }
 
                 .copyrigth {
                     position: absolute;
-                    // right: 20px;
                     bottom: 0;
                     color: $black;
                 }
@@ -119,36 +116,32 @@
     display: flex;
 }
 
-.mybtn {
-    // all:unset !important;
-    background-color: $gray;
 
-    height: 45px;
-    width: 170px;
+a {
+    text-decoration: none;
     color: $white;
-    border: 2px solid $white;
-    border-radius: 35px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    transition: 0.3s;
 
-    a {
-        text-decoration: none;
+    .mybtn {
+        // all:unset !important;
+        background-color: $gray;
+        height: 45px;
+        width: 170px;
         color: $white;
+        border: 2px solid $white;
+        border-radius: 35px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        transition: 0.3s;
 
-    }
-
-    &:hover {
-        background-color: transparent;
-        // border-color:30px solid $black ;
-        border: 2px solid $black;
-
-
-        a {
+        &:hover {
+            background-color: transparent;
+            // border-color:30px solid $black ;
+            border: 2px solid $black;
             color: $black;
         }
     }
-
 }
+
+
 
 .long_info {
     position: relative;

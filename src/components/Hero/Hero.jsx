@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import mainProflie from "../../image/main_Profile.png"
 import resume from "../../resume/Suresh's_Resume.pdf"
+// import 'animate.css';
 const Hero = (props) => {
 
     const [randomAimate, setRandomAnimate] = useState('col-md-8 long_info');
@@ -21,7 +22,7 @@ const Hero = (props) => {
         <div className="container-fluid parrent_wrapper" id='mainPageBg'>
             <div className="container-fluid parrent_wrapper">
                 <div className="container hero_view_wrapper">
-                    <div className="row main_wrapper animate__animated animate__bounceIn">
+                    <div className="row main_wrapper">
                         <div className="col-md-4 sort_info">
                             <div className="myInfo">
                                 <img src={mainProflie} alt="" className="img-fluid"  id='profile'/>
@@ -33,7 +34,7 @@ const Hero = (props) => {
                                     <a href="facebook" target='_blank' rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
                                 </div>
                                 <div className="download_resume">
-                                    <button className='mybtn'><a href={resume} target='_blank' rel="noreferrer">Download CV</a></button>
+                                    <a href={resume} target='_blank' rel="noreferrer"><button className='mybtn'>Download CV</button></a>
                                 </div>
                                 <p className="copyrigth">
                                     @2023 All rights reserved <br /> Suresh Kumar R.
@@ -42,8 +43,6 @@ const Hero = (props) => {
                         </div>
                         <div className={randomAimate}>
                             {props.long_info}
-
-
                         </div>
 
                         <div className="navigation ">
