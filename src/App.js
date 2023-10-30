@@ -3,7 +3,7 @@ import './App.css';
 import Hero from './components/Hero/Hero'
 import Home from './components/Home/Home'
 import About from './components/About/About'
-import Resume from './components/Resume/Resume'
+import Education from './components/Education/Education'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Hero long_info={<Home />} />} />
           <Route path='/about' element={<Hero long_info={<About />} />} />
-          <Route path='/resume' element={<Hero long_info={<Resume />} />} />
+          <Route path='/Education' element={<Hero long_info={<Education />} />} />
         </Routes>
       </BrowserRouter>
 

@@ -3,7 +3,7 @@ import './Home.scss'
 const Home = () => {
     return (
         <>
-            <div className="long_info_wrapper ">
+            <div className="long_info_wrapper">
                 <h1 className="name_show">Suresh kumar R</h1>
                 <p className="designation_show">Web Developer</p>
             </div>

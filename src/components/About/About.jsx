@@ -12,7 +12,7 @@ const About = () => {
                 <div className=" about_info">
                     <div className=" about_decription">
                         <p className='text-start'>
-                            I am Web Developer with over all 2.3 years of experience in the field,
+                            Web Developer with over all 2.3 years of experience in the field,
                             driven by a relentless passion for technology and problem-solving. My journey
                             in the world of technology has allowed me to develop a deep understanding of
                             complex for software engineering, where I have honed my skills in developing and

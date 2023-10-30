@@ -1,6 +1,6 @@
-import './Resume.scss';
+import './Education.scss';
 
-const Resume = () => {
+const Education = () => {
 
     return (
         <>
@@ -57,4 +57,4 @@ const Resume = () => {
     );
 };
 
-export default Resume
+export default Education

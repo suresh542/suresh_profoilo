@@ -21,7 +21,7 @@ const Hero = (props) => {
         <div className="container-fluid parrent_wrapper" id='mainPageBg'>
             <div className="container-fluid parrent_wrapper">
                 <div className="container hero_view_wrapper">
-                    <div className="row main_wrapper">
+                    <div className="row main_wrapper animate__animated animate__bounceIn">
                         <div className="col-md-4 sort_info">
                             <div className="myInfo">
                                 <img src={mainProflie} alt="" className="img-fluid"  id='profile'/>
@@ -46,11 +46,11 @@ const Hero = (props) => {
 
                         </div>
 
-                        <div className="navigation">
+                        <div className="navigation ">
                             <ul>
-                                <li onClick={generateRandomAimate}> <Link className='link' to="/"><i className="fa-solid fa-house"></i></Link></li>
-                                <li onClick={generateRandomAimate}> <Link className='link' to="/about"><i className="fa-solid fa-user"></i></Link></li>
-                                <li onClick={generateRandomAimate}> <Link className='link' to="/resume"><i className="fa-solid fa-graduation-cap"></i></Link></li>
+                                <li onClick={generateRandomAimate}> <Link className='link ' to="/"><i className="fa-solid fa-house"></i></Link></li>
+                                <li onClick={generateRandomAimate}> <Link className='link ' to="/about"><i className="fa-solid fa-user"></i></Link></li>
+                                <li onClick={generateRandomAimate}> <Link className='link ' to="/Education"><i className="fa-solid fa-graduation-cap"></i></Link></li>
                             </ul>
 
 
