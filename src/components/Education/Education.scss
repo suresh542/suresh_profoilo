@@ -3,10 +3,21 @@
 .resume_main_wrapper{
 
     // border: 2px solid red;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .education_skill_info_wrapper{
 
     color: $white;
+    h5{
+        font-size: 30px;
+        color: $lighblue;
+    }
+    &:last-child{
+        margin-top: 100px;
+    }
     
 }
 
@@ -14,10 +25,7 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-   
-
-    width: 55%;
-    // background-color: rgb(110, 125, 110);
+    width: 90%;
     background-color: transparent !important;
 
     .timeline{
@@ -37,28 +45,28 @@
 
         .left{
             display: block;
-            // display: flex;
-            // flex-direction: column;
-
-            // align-items: flex-end;
-            // background-color: red;
+            margin-top: 50px;
             height: 100%;
             width: 100%;
-            // padding: 20px;
-            // border: 2px solid red;
+            font-family: 'Josefin Sans', sans-serif;
             p{
-                text-align: end;
+                text-align: center;
+                font-weight: 600;
+                color: #F5DEB3;
+
+            }
+            span{
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                line-height: 5px;
             }
         }
 
         .divider{
             position:relative;
-            // margin: 10px;
-            // height: 120%;
-          
             height: 100%;
             width: 1px;
-            // margin-bottom: -20px;
             background-color: rgb(125, 121, 121);
 
             &::after{
@@ -78,8 +86,20 @@
         }
         .right{
             // border: 2px solid blue;
-            padding: 20px;
+            margin-top: 50px;
+            padding:  0 0 0 50px; 
             height: 100%;
+            p{
+                text-align: start;
+                font-family: 'Playpen Sans', cursive;
+                color: #848383;
+                &:first-child{
+                    text-align: center!important;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 20px;
+                    color: #c5c5c5;
+                }
+            }
         }
 
        

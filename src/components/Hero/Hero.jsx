@@ -25,13 +25,14 @@ const Hero = (props) => {
                     <div className="row main_wrapper">
                         <div className="col-md-4 sort_info">
                             <div className="myInfo">
-                                <img src={mainProflie} alt="" className="img-fluid"  id='profile'/>
+                                <img src={mainProflie} alt="" className="img-fluid" id='profile' />
                                 <h1 className="name">Suresh Kumar R</h1>
                                 <p className="designation">UI/UX Developer</p>
                                 <div className="social_media_group">
-                                    <a href="https://github.com/suresh542" target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i></a>
-                                    <a href="https://www.linkedin.com/in/suresh-kumar-9859831a7/" target='_blank' rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="facebook" target='_blank' rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                                    <a href="https://github.com/suresh542" target='_blank' rel="noreferrer"> <img alt="Free Github Logo Icon" className='git' width="256" src="https://cdn.iconscout.com/icon/free/png-256/free-github-87-437377.png?f=webp&amp;w=256" srcset="https://cdn.iconscout.com/icon/free/png-256/free-github-87-437377.png?f=webp&amp;w=256 1x, https://cdn.iconscout.com/icon/free/png-256/free-github-87-437377.png?f=webp&amp;w=512 2x"></img></a>
+                                    <a href="https://www.linkedin.com/in/suresh-kumar-9859831a7/" target='_blank' rel="noreferrer" id='linkedIcons'><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="facebook" target='_blank' rel="noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+
                                 </div>
                                 <div className="download_resume">
                                     <a href={resume} target='_blank' rel="noreferrer"><button className='mybtn'>Download CV</button></a>
