@@ -46,7 +46,7 @@ export default function HomePage() {
     ]
 
   const [myName] = useTypewriter({
-    words:["Suresh Kumar R", "சுரேஷ் குமார் ரா"],
+    words:["Suresh Kumar R", "சுரேஷ் குமார் ரா","ಸುರೇಶ್ ಕುಮಾರ್ ರಾ","सुरेश कुमार रा", "S K"],
     loop:0,
     typeSpeed:200,
     deleteSpeed:150,
@@ -69,7 +69,7 @@ export default function HomePage() {
             </div>
         </section>
             <div className="font-rancho text-slate-50 dark:text-gray-950  text-4xl md:text-6xl lg:text-7xl flex justify-center align-middle mt-10">
-              {/* {myName} */} Suresh Kumar R
+              {myName}
               <Cursor/>
             </div>
             <div>

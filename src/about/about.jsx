@@ -5,18 +5,18 @@ export default function About() {
   return (
     <div className="mt-10 sm:px-4 md:px-14 lg:px-20 text-slate-50 dark:text-gray-950 py-20 font-Farro" >
 
-      <div className=" py-5 font-Farro text-4xl font-bold">
+      <div className=" px-4 py-5 font-Farro text-4xl font-bold">
         About Me
       </div>
 
       <div className="container">
-        <div className="grid grid-row-1 grid-flow-col gap-2">
+        <div className="grid grid-row-1 lg:grid-flow-col  gap-2">
 
-            <div className="text-black col-span-4 dark:text-red-500 center inline-flex justify-center middle block">
-              <img src={AboutImg} alt="" className="" />
+            <div className="text-black sm-col-span-full md:col-span-4 lg:col-span-4  dark:text-red-500 center inline-flex justify-center middle block">
+              <img src={AboutImg} alt="" className="middle center" />
             </div>
 
-            <div className="col-span-8  grid gap-6">
+            <div className="sm-col-span-full md:col-span-8 lg:col-span-8  grid gap-6">
                 <div>Hey there!</div>
 
                 <div>
