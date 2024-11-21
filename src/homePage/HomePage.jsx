@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Header/Header";
 import HomeProfile from "../assets/HomeProfile.png"
 import profile1 from "../assets/Profile/1.jpg"
@@ -14,6 +13,7 @@ import icons5 from "../assets/Icons/dev.png"
 import icons6 from "../assets/Icons/frontendMentor.svg"
 import Name from "../assets/Name.png"
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import About from "../about/about";
 
 export default function HomePage() {
 
@@ -46,7 +46,7 @@ export default function HomePage() {
     ]
 
   const [myName] = useTypewriter({
-    words:["Suresh Kumar R", "சுரேஷ் குமார் ரா","ಸುರೇಶ್ ಕುಮಾರ್ ರಾ"],
+    words:["Suresh Kumar R", "சுரேஷ் குமார் ரா"],
     loop:0,
     typeSpeed:200,
     deleteSpeed:150,
@@ -55,10 +55,8 @@ export default function HomePage() {
 
 
   return (
-    <div className="bg-black h-screen">
-      {/* <section >
+    <div className="bg-black dark:bg-white h-full w-full">
        <Header/>
-      </section> */}
         <section className=" flex justify-center ">
             <div className="flex justify-center  w-full md:w-3/4 lg:w-3/5 h-3/5 md:h-1/2 lg:h-3/4" >
               <div className=" flex overflow-hidden justify-center " >
@@ -70,39 +68,28 @@ export default function HomePage() {
              
             </div>
         </section>
-        <section>
-        {/* <div className="flex justify-center center">
-                    <img src={Name} alt="" width={"800px"} />
-              </div>  */}
-            <div className="font-rancho text-white  text-4xl md:text-6xl lg:text-7xl flex justify-center align-middle mt-10">
-              {/* {myName} */} suresh kumar R
+            <div className="font-rancho text-slate-50 dark:text-gray-950  text-4xl md:text-6xl lg:text-7xl flex justify-center align-middle mt-10">
+              {/* {myName} */} Suresh Kumar R
               <Cursor/>
             </div>
-        </section>
+            <div>
+            </div>
 
           <section>
-                <div className="font-Farro text-white  text-lg md:text-xl lg:text-2xl flex justify-center mt-10">
+                <div className="px-4 font-Farro text-slate-50 dark:text-gray-950 text-lg md:text-xl lg:text-2xl flex justify-center mt-10">
                       Web Developer, &nbsp; Desinger, &nbsp; AWS Clouds &nbsp;  and &nbsp;  Devops
                 </div>
-                <div className="mt-10 flex justify-center  space-x-7 md:space-x-12 lg:space-x-16 "> 
+                <div className="mt-10 flex justify-center  space-x-7 md:space-x-12 lg:space-x-16  "> 
                     {socialMediaicons.map((ico)=>(
                       <a href={ico.iconsLinks} target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
-                     <img src={ico.icons} alt="" width={"30px"} height={"auto"} />
+                     <img src={ico.icons} alt="" width={"30px"} height={"30px"} className="border border-gray-950 rounded-full " />
                       </a>
                     ))}
                 </div>
           </section>
-
-
-      {/* <section className="h-screen bg-gradient-to-r from-sky-200 to-indigo-200">
-          <div className="absolute">
-            suresh kumar R
-          </div>
-          
-          <div className="flex justify-center ps-44">
-            <img className="center" src={HomeProfile} alt="" style={{width:"400px",height:"auto"}} />
-          </div>
-      </section> */}
+          <section>
+          <About/>
+          </section>
     </div>
   );
 }

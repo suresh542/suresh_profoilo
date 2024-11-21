@@ -1,11 +1,14 @@
-import './App.css'
+// import './App.css'
 import HomePage from './homePage/homePage'
 
 function App() {
 
   return (
     <>
-      <HomePage/>
+    <div id='app'>
+    <HomePage/>
+
+    </div>
     </>
   )
 }
